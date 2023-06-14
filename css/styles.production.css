@@ -166,7 +166,7 @@ footer {
         font-size: 22px;
    }
 }
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
@@ -189,5 +189,21 @@ footer {
    }
     h1 {
         font-size: 22px;
+   }
+    .profile .profile__portrait {
+        width: 100%;
+   }
+    .page-header {
+        flex-direction: column;
+   }
+    .page-header .page-header__item {
+        width: 100%;
+   }
+    section, #about-text {
+        width: 100%;
+   }
+    #about-picture svg {
+        width: 100%;
+        height: auto;
    }
 }
