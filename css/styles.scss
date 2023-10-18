@@ -1,5 +1,5 @@
-$primary-color: #e2e8f0;
-$secondary-color: #e2b2ff;
+$primary-color: #fffbff;
+$secondary-color: #ebd8d0;
 $text-color: #2b2b2b;
 
 :root {
@@ -85,7 +85,7 @@ section {
 }
 
 #contact {
-    max-width: 600px ;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -199,6 +199,19 @@ button,
 footer {
     padding-left: 10px;
     padding-right: 10px;
+
+    .social-media {
+        a {
+            text-decoration: none;
+            padding-left: 4px;
+            padding-right: 4px;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
 }
 
 @media all and (max-width: 500px) {
@@ -236,28 +249,36 @@ footer {
 @media all and (max-width: 750px) {
     .grid {
         grid-gap: 10px;
-   }
+    }
+
     .grid__item:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
-   }
+    }
+
     h1 {
         font-size: 22px;
-   }
-   .profile .profile__portrait {
-    width: 100%;
-}
-.page-header {
-    flex-direction: column;
-}
-.page-header .page-header__item {
-    width: 100%;
-}
-section, #about-text {
-    width: 100%;
-}
-#about-picture svg {
-    width: 100%;
-    height: auto;
-}
+    }
+
+    .profile .profile__portrait {
+        width: 100%;
+    }
+
+    .page-header {
+        flex-direction: column;
+    }
+
+    .page-header .page-header__item {
+        width: 100%;
+    }
+
+    section,
+    #about-text {
+        width: 100%;
+    }
+
+    #about-picture svg {
+        width: 100%;
+        height: auto;
+    }
 }
