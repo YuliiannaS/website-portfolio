@@ -63,7 +63,7 @@ ul {
     width: 250px;
     height: auto;
     margin-right: 40px;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 section {
     padding-left: 10px;
@@ -140,7 +140,7 @@ button, .button {
     border: none;
     display: inline-block;
     font-family: inherit;
-    background-color: #6474e5;
+    background-color: #2c44f5;
     color: aliceblue;
     text-decoration: none;
     font-size: 14px;
